@@ -1,3 +1,10 @@
 <div style="display: flex; justify-content: center;">
   <h1>Angular Life Cycle Hooks</h1>
 </div>
+<div>
+  <input #inputVal>
+  <button (click)="onClick(inputVal)">Click</button>
+  <!-- <app-on-changes [message]="msg"></app-on-changes> -->
+  <!-- <app-on-init [message]="msg"></app-on-init> -->
+  <app-do-check [message]="msg"></app-do-check>
+</div>
