@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { OnChangesComponent } from './components/on-changes/on-changes.component';
 import { OnInitComponent } from './components/on-init/on-init.component';
 import { DoCheckComponent } from './components/do-check/do-check.component';
+import { AfterContentInitComponent } from './components/after-content-init/after-content-init.component';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import { DoCheckComponent } from './components/do-check/do-check.component';
             RouterOutlet,
             OnChangesComponent,
             OnInitComponent,
-            DoCheckComponent
+            DoCheckComponent,
+            AfterContentInitComponent
           ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

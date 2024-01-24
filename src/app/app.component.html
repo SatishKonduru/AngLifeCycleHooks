@@ -6,5 +6,8 @@
   <button (click)="onClick(inputVal)">Click</button>
   <!-- <app-on-changes [message]="msg"></app-on-changes> -->
   <!-- <app-on-init [message]="msg"></app-on-init> -->
-  <app-do-check [message]="msg"></app-do-check>
+  <!-- <app-do-check [message]="msg"></app-do-check> -->
+  <app-after-content-init>
+    <h3 #projRef>Projected Content new - {{msg}}</h3>
+  </app-after-content-init>
 </div>
